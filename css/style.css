@@ -1,0 +1,166 @@
+body{
+    background-image: url(../images/backround.jpg);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: auto;
+    padding: 0px;
+
+}
+a:link {
+    text-decoration: none;
+    color: white;
+}
+  
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+  
+a:hover {
+    text-decoration: none;
+  }
+  
+a:active {
+    text-decoration: none;
+}
+
+h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 20px;
+}
+
+h5{
+    font-size: 20px;
+    margin: 20px 0px 0px 20px;
+    font-style: italic;
+}
+
+/* Itt kezdődik a navbar */
+#navbar{
+    width: 100px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    border-radius: 25px;
+    border: 2px solid black;
+    color: #f8fae3;
+    font-size: 30px;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+    margin: 0px 0px 20px 50px;
+}
+
+nav li img{
+    width: 130px;
+    height: 130px;
+    padding-left: 300px;
+}
+
+#navbar{
+    width: auto;
+    height: 0 0 100 0;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+/* Itt van vége */
+
+
+.maindiv{
+    width: 1200px;
+    height: 1000px;
+    background-color: #f8fae3;
+    margin: 0px 0px 0px 350px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+/* Bemutatkozás, boxok */
+.intro{
+    font-size: 20px;
+    margin: 20px;
+    padding: 0px;
+}
+
+.aboutus{
+    font-size: 20px;
+    margin: 0px 0px 0px 20px;
+    padding: 5px;
+}
+
+.boxes{
+    font-size: 20px;
+    margin: 20px;
+    padding:0;
+}
+
+.box{
+    float: left;
+    width: 270px;
+    font-size: 20px;
+    height: 300px;
+    margin: 0px 90px 0px 20px;
+    border-radius: 25%;
+    border: 2px solid black;
+    background-color: black;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box img{
+    width: 270px;
+    height: 300px;
+    border-radius: 25%;
+}
+
+.boxes li{
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+    margin: 0px 170px 0px 20px;
+}
+
+/* Menü rész */
+
+.first{
+    float:left;
+    height: 600px;
+    width: 500px;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0px;
+    margin: 40px;
+    background-color: #f7e7e6;
+}
+.second{
+    float:left;
+    height: 600px;
+    width: 500px;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0px;
+    margin: 40px;
+    background-color: #f7e7e6;
+}
+
+/* Kapcsolat fül */
+
+.kapcsolat{
+    font-size: 20px;
+    font-style: italic;
+    margin: 20px;
+    padding: 10px;
+}
+
+.logo{
+    margin: 0%;
+    padding: 0%;
+    width: 70px;
+    height: 70px;
+}
